@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.quraan" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Browse"
+            android:label="@string/title_activity_browse" >
+        </activity>
+        <activity
+            android:name=".Quran_Prints"
+            android:label="@string/title_activity_quran__prints" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Sign_Up"
+            android:label="@string/title_activity_sign__up" >
+        </activity>
+        <activity
+            android:name=".Surah"
+            android:label="@string/title_activity_surah" >
+        </activity>
+        <activity
+            android:name=".appSettings"
+            android:label="@string/title_activity_app_settings" >
+        </activity>
+        <activity
+            android:name=".Athkar"
+            android:label="@string/title_activity_athkar" >
+        </activity>
+        <activity
+            android:name=".Tajweed"
+            android:label="@string/title_activity_tajweed" >
+        </activity>
+        <activity
+            android:name=".FirstPrint"
+            android:label="@string/title_activity_first_print" >
+        </activity>
+        <activity
+            android:name=".Comments"
+            android:label="@string/title_activity_comments" >
+        </activity>
+        <activity
+            android:name=".Add_Comment"
+            android:label="@string/title_activity_add__comment" >
+        </activity>
+        <activity android:name=".MainPage" >
+        </activity>
+        <activity android:name=".DispatchActivity" >
+
+        </activity>
+    </application>
+
+</manifest>
